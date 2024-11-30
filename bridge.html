@@ -162,6 +162,7 @@ src="https://www.facebook.com/tr?id=552864457487017&ev=PageView&noscript=1"
         </div>
     </div>
 
+
     <script>
         document.getElementById("bridgeForm").addEventListener("submit", function (event) {
             event.preventDefault(); // Prevent the default form submission
@@ -176,10 +177,14 @@ src="https://www.facebook.com/tr?id=552864457487017&ev=PageView&noscript=1"
                 alert("Phone numbers do not match!");
                 return;
             }
-
-            // Redirect to the main page after form submission
-            window.location.href = "https://prostate-wel.xyz/"; // Replace with your main page URL
-        });
+          <script>
+        // Redirect user to the main page after form submission
+        document.getElementById('bridgeForm').onsubmit = function() {
+            setTimeout(function() {
+                window.location.href =  "https://prostate-wel.xyz/";  // Change to your main page URL
+            }, 2000);  // Delay the redirection by 2 seconds to allow the form submission to complete
+        };
     </script>
+           
 </body>
 </html>
