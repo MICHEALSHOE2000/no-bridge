@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Event snippet for Page view conversion page --> <script> gtag('event', 'conversion', { 'send_to': 'AW-16797992264/ai4fCPCz3vIZEMiK9Mk-', 'value': 1.0, 'currency': 'USD' }); </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for ordering Prostate Well. Your order has been received, and we will contact you shortly.">
+    <title>Thank You - Prostate Well</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #007bff;
+            color: #fff;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Prostate Cure Plus Solution</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Thank You for Your Order!</h2>
+        <p>We’ve received your details and will contact you shortly to confirm your order.</p>
+      
+        <p>
+            Our representative will call you within the next 24 hours to confirm your order and arrange delivery. 
+            If you have any urgent questions, feel free to reach out to us at <strong>08134402903</strong>.
+        </p>
+
+        <!-- CTA Button -->
+        <a href="#" class="cta-button">Share This Product</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us at <strong>08134402903</strong> or <a href="mailto:support@prostatewell.com">support@prostatewell.com</a></p>
+        <p><a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+  
+</body>
+</html>
