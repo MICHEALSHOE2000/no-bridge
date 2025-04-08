@@ -113,22 +113,75 @@
             color: #888;
             margin-top: 10px;
         }
-        footer {
-            padding: 20px;
-            background: #222;
-            color: #fff;
-            font-size: 14px;
-        }
-        footer a {
-            color: #ddd;
-            display: block;
-            margin: 5px 0;
-            text-decoration: none;
-        }
-        footer a:hover {
-            color: #fff;
-            text-decoration: underline;
-        }
+        .site-footer {
+  background-color: #234123;
+  color: #e0ffe0;
+  padding: 50px 20px 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-brand h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-brand p {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-links div h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #caffca;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  color: #d5ffd5;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaffaa;
+  border-top: 1px solid #3c6d3c;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
     </style>
 </head>
 <body>
@@ -165,14 +218,50 @@
   </div>
 </div>
 
-<footer class="text-center">
-  <p><strong>Green Global Empire</strong></p>
-  <p>Contact: +234-903-792-5799 | Email: support@herbaldelight.ng</p>
-  <a href="#">About Us</a>
-  <a href="#">Privacy Policy</a>
-  <a href="#">Terms & Conditions</a>
-  <a href="#">Shipping & Returns</a>
-  <p>&copy; 2025 Green Global Empire. All rights reserved.</p>
+<!-- 📌 Footer Reminder -->
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>Green Health empire</h3>
+      <p>📞 (+234)-903-792-5799 </p>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Complan</a></li>
+          <li><a href="#">Shops</a></li>
+          <li><a href="#">Core Values</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Business</h4>
+        <ul>
+          <li><a href="#">Network Marketing</a></li>
+          <li><a href="#">MLM Company</a></li>
+          <li><a href="#">Direct Selling</a></li>
+          <li><a href="#">Distribution Business</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Help & Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Green Health . All Rights Reserved.</p>
+  </div>
 </footer>
-</body>
-</html>
+
