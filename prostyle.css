@@ -1,10 +1,4 @@
-/* ========== GENERAL RESET ========== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-    .sticky-header {
+.sticky-header {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -82,14 +76,12 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-body {
-  font-family: 'Arial Black', sans-serif;
-  line-height: 1.6;
-  background-color: #f0fff4;
-  color: #0f5132;
-  padding: 1rem;
-}
-
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
 /* ========== HERO SECTION ========== */
 #hero {
   background: #0f5132;
