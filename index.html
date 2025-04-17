@@ -231,6 +231,55 @@
     </style>
 </head>
 <body>
+  <!-- WhatsApp Chat Button -->
+<a href="https://wa.me/2349037925799?text=Hello%20Dr%20Dee%2C%20I%20need%20help%20with%20prostate%20treatment" 
+   class="whatsapp-chat" target="_blank" aria-label="Chat on WhatsApp">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Icon">
+  <span>Chat with Dr Dee</span>
+</a>
+
+<style>
+  .whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    transition: transform 0.3s ease;
+  }
+
+  .whatsapp-chat:hover {
+    transform: scale(1.05);
+    color: #fff;
+  }
+
+  .whatsapp-chat img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+  }
+
+  @media (max-width: 600px) {
+    .whatsapp-chat {
+      font-size: 12px;
+      padding: 8px 12px;
+    }
+
+    .whatsapp-chat span {
+      display: none;
+    }
+  }
+</style>
+  
 <header class="sticky-header">
   <div class="nav-container">
     <div class="logo">🌿 Green Global Empire</div>
